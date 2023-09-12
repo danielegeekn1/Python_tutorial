@@ -1,3 +1,5 @@
-name = input("Enter your name :")
 age = input('Enter your age :')
-print('Hello' + ' ' + name + 'you are' + ' ' + age + ' ' + 'years old')
+number = input('Enter a number : ')
+result = float(number) + float(age)
+print(result)
+
