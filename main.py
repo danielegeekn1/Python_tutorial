@@ -8,3 +8,10 @@ print('there once was a man named' +' ' + character_name + ',' + 'and he is' + '
 print('i am\n a new boy')
 print(phrase.lower() + ' ' +'mangaka in the world')
 print(phrase.upper())
+
+print(3*4.5)
+print(10 % 3)
+
+my_age = 34
+print(str(my_age) +' '+ 'is my age')
+# not able to join number variable with string, before i had to convert my_age to string, to add to it another string 
