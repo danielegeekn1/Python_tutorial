@@ -16,3 +16,7 @@ print(friends)
 print(friends.index('Federica'))
 friends.append('Federica')
 print(friends.count('Federica'))
+print(friends.reverse())
+
+friends2 = friends.copy()
+print(friends2)
