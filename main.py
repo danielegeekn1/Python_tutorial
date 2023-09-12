@@ -1,5 +1,7 @@
-age = input('Enter your age :')
-number = input('Enter a number : ')
-result = float(number) + float(age)
-print(result)
+color = input('Enter a color:')
+plural_noun = input('Enter a plural noun:')
+celebrity = input('Enter a celebrity:')
 
+print('roses are' + ' ' + color)
+print(plural_noun + ' ' + 'are blue')
+print('i love' + ' ' + celebrity)
