@@ -1,15 +1,4 @@
-calendar_months = {
-    'Jan':'January',
-    'Feb':'February',
-    'Mar':'March',
-    'Apr':'April',
-    'May':'May',
-    'Jun':'June',
-    'Jul':'July',
-    'Aug':'August',
-    'Sep':'September',
-    'Opt':'Optober',
-    'Nov':'November',
-    'Dec':'December'
-}
-print(calendar_months.get('Dec'))
+i = 0
+while i <= 10:
+    i = i + 1
+    print(i)
