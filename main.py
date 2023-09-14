@@ -23,3 +23,6 @@ number_grid = [
     [0]
 ]
 print(number_grid[1][1])
+for row in number_grid:
+    for col in row:
+        print(col)
