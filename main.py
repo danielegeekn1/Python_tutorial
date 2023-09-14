@@ -1,8 +1,6 @@
-open("employees.txt", "r")
-#only read file
-open("employees.txt", "w")
-#write file
-open("employees.txt", "a")
-#only add new content to this file
-open("employees.txt", "r+")
-#read and write the file
+employee_file = open("employees.txt", "r")
+print(employee_file.read())
+
+print(employee_file.readline())
+print(employee_file.readline())
+employee_file.close()
