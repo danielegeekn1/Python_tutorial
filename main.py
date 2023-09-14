@@ -1,2 +1,4 @@
-import useful_code
-print(useful_code.roll_dice(10))
+from student import Student 
+student1 = Student("Jim", "Business", 3.1, False)
+
+print(student1.name)
